@@ -1,3 +1,21 @@
+body {
+  direction: rtl;
+}
 
+#cartSidebar {
+  width: 320px;
+  transform: translateX(-105%);
+  transition: transform 0.25s;
+  z-index: 1000;
+}
+
+.product-card {
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.product-img{
+    object-fit: cover;
+}
 
 /*# sourceMappingURL=style.css.map */
