@@ -1,0 +1,17 @@
+{
+  "name": "mini-shop",
+  "version": "1.0.0",
+  "description": "پروژه فروشگاهی آموزشی فرانت",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:sass": "sass style.scss style.css --watch",
+    "start" : "serve ."
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.8",
+    "sass": "^1.93.2"
+  }
+}
